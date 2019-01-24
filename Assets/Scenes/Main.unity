@@ -859,6 +859,7 @@ GameObject:
   - component: {fileID: 1999456448}
   - component: {fileID: 1999456447}
   - component: {fileID: 1999456449}
+  - component: {fileID: 1999456450}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -914,6 +915,24 @@ MonoBehaviour:
   spawnRate: 4
   columnMin: -2
   columnMax: 2
+--- !u!114 &1999456450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999456446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 825762b808bdf48ff8697670151c0f83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinPoolSize: 3
+  coinPrefab: {fileID: 663642572064561143, guid: e5a8da6e1e5834ad0b9d624093f6741e,
+    type: 3}
+  spawnRate: 8
+  coinMin: -1
+  coinMax: 4
 --- !u!1 &2015392290
 GameObject:
   m_ObjectHideFlags: 0
